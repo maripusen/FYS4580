@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="16" name="fuel" region="(5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)" universe="1"/>
+  <cell id="2" material="5" name="helium" region="~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)) ((13 -14 15 -16 30 -29) | (-9 30 -29) | (-10 30 -29) | (-11 30 -29) | (-12 30 -29))" universe="1"/>
+  <cell id="3" material="4" name="cladding" region="~(~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)) ((13 -14 15 -16 30 -29) | (-9 30 -29) | (-10 30 -29) | (-11 30 -29) | (-12 30 -29))) ~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)) ((21 -22 23 -24 30 -29) | (-17 30 -29) | (-18 30 -29) | (-19 30 -29) | (-20 30 -29))" universe="1"/>
+  <cell id="4" material="15" name="moderator" region="25 -26 27 -28 30 -29 ~(~(~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)) ((13 -14 15 -16 30 -29) | (-9 30 -29) | (-10 30 -29) | (-11 30 -29) | (-12 30 -29))) ~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)) ((21 -22 23 -24 30 -29) | (-17 30 -29) | (-18 30 -29) | (-19 30 -29) | (-20 30 -29))) ~(~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29)) ((13 -14 15 -16 30 -29) | (-9 30 -29) | (-10 30 -29) | (-11 30 -29) | (-12 30 -29))) ~((5 -6 7 -8 30 -29) | (-1 30 -29) | (-2 30 -29) | (-3 30 -29) | (-4 30 -29))" universe="1"/>
+  <surface coeffs="0 0.12 0.12" id="1" type="z-cylinder"/>
+  <surface coeffs="0.12 0 0.12" id="2" type="z-cylinder"/>
+  <surface coeffs="0 -0.12 0.12" id="3" type="z-cylinder"/>
+  <surface coeffs="-0.12 0 0.12" id="4" type="z-cylinder"/>
+  <surface coeffs="-0.06" id="5" name="minimum x" type="x-plane"/>
+  <surface coeffs="0.06" id="6" name="maximum x" type="x-plane"/>
+  <surface coeffs="-0.06" id="7" name="minimum y" type="y-plane"/>
+  <surface coeffs="0.06" id="8" name="maximum y" type="y-plane"/>
+  <surface coeffs="0 0.12 0.15" id="9" type="z-cylinder"/>
+  <surface coeffs="0.12 0 0.15" id="10" type="z-cylinder"/>
+  <surface coeffs="0 -0.12 0.15" id="11" type="z-cylinder"/>
+  <surface coeffs="-0.12 0 0.15" id="12" type="z-cylinder"/>
+  <surface coeffs="-0.075" id="13" name="minimum x" type="x-plane"/>
+  <surface coeffs="0.075" id="14" name="maximum x" type="x-plane"/>
+  <surface coeffs="-0.075" id="15" name="minimum y" type="y-plane"/>
+  <surface coeffs="0.075" id="16" name="maximum y" type="y-plane"/>
+  <surface coeffs="0 0.12 0.2" id="17" type="z-cylinder"/>
+  <surface coeffs="0.12 0 0.2" id="18" type="z-cylinder"/>
+  <surface coeffs="0 -0.12 0.2" id="19" type="z-cylinder"/>
+  <surface coeffs="-0.12 0 0.2" id="20" type="z-cylinder"/>
+  <surface coeffs="-0.1" id="21" name="minimum x" type="x-plane"/>
+  <surface coeffs="0.1" id="22" name="maximum x" type="x-plane"/>
+  <surface coeffs="-0.1" id="23" name="minimum y" type="y-plane"/>
+  <surface coeffs="0.1" id="24" name="maximum y" type="y-plane"/>
+  <surface boundary="reflective" coeffs="-1.75" id="25" name="minimum x" type="x-plane"/>
+  <surface boundary="reflective" coeffs="1.75" id="26" name="maximum x" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-1.75" id="27" name="minimum y" type="y-plane"/>
+  <surface boundary="reflective" coeffs="1.75" id="28" name="maximum y" type="y-plane"/>
+  <surface boundary="reflective" coeffs="1.0" id="29" type="z-plane"/>
+  <surface boundary="reflective" coeffs="-1.0" id="30" type="z-plane"/>
+</geometry>

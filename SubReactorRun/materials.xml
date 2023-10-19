@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="2" name="h2o">
+    <density units="g/cm3" value="1.0"/>
+    <nuclide ao="2.0" name="H1"/>
+    <nuclide ao="0.999621" name="O16"/>
+    <nuclide ao="0.000379" name="O17"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="3" name="d20">
+    <density units="g/cm3" value="1.11"/>
+    <nuclide ao="2.0" name="H2"/>
+    <nuclide ao="0.999621" name="O16"/>
+    <nuclide ao="0.000379" name="O17"/>
+  </material>
+  <material id="4" name="Zr">
+    <density units="g/cm3" value="6.49"/>
+    <nuclide ao="0.5016375" name="Zr90"/>
+    <nuclide ao="0.10939499999999999" name="Zr91"/>
+    <nuclide ao="0.16721250000000001" name="Zr92"/>
+    <nuclide ao="0.169455" name="Zr94"/>
+    <nuclide ao="0.0273" name="Zr96"/>
+    <nuclide ao="0.025" name="Nb93"/>
+  </material>
+  <material id="5" name="He">
+    <density units="g/cm3" value="0.000178"/>
+    <nuclide ao="2e-06" name="He3"/>
+    <nuclide ao="0.999998" name="He4"/>
+  </material>
+  <material id="6" name="Graph">
+    <density units="g/cm3" value="2.09"/>
+    <nuclide ao="1.0" name="C0"/>
+  </material>
+  <material id="7" name="Boron">
+    <density units="g/cm3" value="2.3"/>
+    <nuclide ao="0.1982" name="B10"/>
+    <nuclide ao="0.8018" name="B11"/>
+  </material>
+  <material id="8" name="Lead">
+    <density units="g/cm3" value="11.33"/>
+    <nuclide ao="0.014" name="Pb204"/>
+    <nuclide ao="0.241" name="Pb206"/>
+    <nuclide ao="0.221" name="Pb207"/>
+    <nuclide ao="0.524" name="Pb208"/>
+  </material>
+  <material depletable="true" id="13" name="B-Carbide" volume="14171.514751456867">
+    <density units="g/cm3" value="2.5"/>
+    <nuclide ao="1.0" name="C0"/>
+    <nuclide ao="0.7928" name="B10"/>
+    <nuclide ao="3.2072" name="B11"/>
+  </material>
+  <material id="14" name="high_tensile_steel">
+    <density units="g/cm3" value="7.9"/>
+    <nuclide ao="0.0026" name="C0"/>
+    <nuclide ao="0.0165" name="Mn55"/>
+    <nuclide ao="0.0004" name="P31"/>
+    <nuclide ao="0.00038016296000000004" name="S32"/>
+    <nuclide ao="2.9947600000000003e-06" name="S33"/>
+    <nuclide ao="1.678396e-05" name="S34"/>
+    <nuclide ao="5.832e-08" name="S36"/>
+    <nuclide ao="0.0083006712" name="Si28"/>
+    <nuclide ao="0.0004214844" name="Si29"/>
+    <nuclide ao="0.0002778444" name="Si30"/>
+    <nuclide ao="0.05675495" name="Fe54"/>
+    <nuclide ao="0.89093134" name="Fe56"/>
+    <nuclide ao="0.02057549" name="Fe57"/>
+    <nuclide ao="0.00273822" name="Fe58"/>
+  </material>
+  <material depletable="true" id="15" name="d20(0.99999)-boric_acid(1e-05)" volume="827259.702736991">
+    <density units="g/cm3" value="1.1100033264287001"/>
+    <nuclide ao="0.6666600006674571" name="H2"/>
+    <nuclide ao="0.33320795202" name="O16"/>
+    <nuclide ao="0.00012633369428571425" name="O17"/>
+    <nuclide ao="4.285046828571429e-06" name="H1"/>
+    <nuclide ao="2.831428571428572e-07" name="B10"/>
+    <nuclide ao="1.1454285714285716e-06" name="B11"/>
+  </material>
+  <material depletable="true" id="16" name="uo2(0.9)-Plutonium(0.1)" volume="8055.436042232201">
+    <density units="g/cm3" value="19.077764068328328"/>
+    <nuclide ao="0.27" name="U235"/>
+    <nuclide ao="0.63" name="U238"/>
+    <nuclide ao="0.07199999999999998" name="Pu239"/>
+    <nuclide ao="0.0009999999999999998" name="Pu238"/>
+    <nuclide ao="0.003999999999999999" name="Pu242"/>
+    <nuclide ao="0.013999999999999999" name="Pu240"/>
+    <nuclide ao="0.006999999999999999" name="Pu241"/>
+    <nuclide ao="0.0019999999999999996" name="Am241"/>
+  </material>
+</materials>
